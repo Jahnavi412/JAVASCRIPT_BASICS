@@ -28,9 +28,21 @@ console.log(person);
 
 
 //arrays
-let seletecedcolors=['red','blue'];
-seletecedcolors[2]='green';
-console.log(seletecedcolors.length);
+let colors=['red','blue'];
+colors[2]='green';
+console.log(colors.length);
+
+
+//looping of arrays
+
+for(let n of colors )
+console.log(n);
+
+colors.forEach(function(n , index){
+console.log(index +" =" + n);
+});
+
+
 
 
 //functions
