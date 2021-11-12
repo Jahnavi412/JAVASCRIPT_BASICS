@@ -15,6 +15,7 @@ let person ={
     age: 20
 
 };
+console.log(JSON.stringify.person); // we can get all the values of object at once.
 
 // dynamically we can change properties of the object by two ways
 // Dot notation
